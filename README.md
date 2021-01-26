@@ -9,7 +9,7 @@ docker image ls
 docker container run -it -p 8888:8888 --name <container_name> --mount type=bind,src=`pwd`,dst=/workdir <image_name>
 ``` 
 
-`jpt_lab` bash alias activate jupyter lab. 
+`jpt_lab` bash alias activates jupyter lab. 
 
 
 # Snippets 

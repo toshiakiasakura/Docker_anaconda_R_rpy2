@@ -31,5 +31,5 @@ RUN apt-get update && \
 RUN apt-get update && \
     apt-get install -y vim
 
-RUN echo "alias jpt_lab=\"echo -e \"\nhttp://localhost:8888\n\" && jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''\"" >> /root/.bashrc
+RUN echo "alias jpt_lab='echo -e \"\nhttp://localhost:8888\n\" && jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token='''" >> /root/.bashrc
 
